@@ -4,7 +4,7 @@ let learning = true;
 let killingIt = havingFun && learning;
 
 
-function returnFalse(iGetTheJoke) {
+function returnFalse() {
   return false;
 }
 
@@ -13,19 +13,19 @@ function isOpposite(condition) {
 }
 
 function both(condition1, condition2) {
-  return condition1 && condition2
+  return condition1 && condition2;
 }
 
 function either(condition1, condition2) {
-  
+  return condition1 || condition2;
 }
 
 function neither(condition1, condition2) {
-
+  return !condition1 && !condition2;
 }
 
 function itsComplicated(condition1, condition2, condition3) {
-
+  
 }
 
 
